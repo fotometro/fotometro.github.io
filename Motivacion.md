@@ -22,11 +22,11 @@ Daré algunos ejemplos de lo que se puede hacer:
 ## El atractor de Lorenz:
 El sistema de Lorenz es un set de ecuaciones diferenciales acopladas las cuales tiene soluciones caóticas dados ciertos parámetros $\sigma$, $\rho$ y $\beta$ con las condiciones iniciales $x(0)$, $y(0)$ y $z(0)$ evaluadas en la posición inicial de nuestra partícula P.
 
-$$\displaystyle \frac{{\rm d} x}{{\rm d} t} = \sigma(y - x)$$
+$$\displaystyle \frac{ {\rm d} x }{ {\rm d} t } = \sigma(y - x)$$
 
-$$\displaystyle \frac{{\rm d} y}{{\rm d} t} = x(\rho - z) - y$$
+$$\displaystyle \frac{ {\rm d} y }{ {\rm d} t } = x(\rho - z) - y$$
 
-$$\displaystyle \frac{{\rm d} z}{{\rm d} t} = xy - \beta z$$
+$$\displaystyle \frac{ {\rm d} z }{ {\rm d} t } = xy - \beta z$$
 
 El truco acá será discretizar los diferenciales del set de ecuaciones, asumiendo que el infinitesimal temporal ${\rm d}t$ puede ser aproximada usando una diferencia finita $\Delta t$ suficientemente pequeña. Lo mismo será asumido para las variables espaciales, así por ejemplo para la variable i-ésima $x_{i}$, tenemos que $\Delta x_{i+1} = x_{i+1} - x_{i}$. 
 
